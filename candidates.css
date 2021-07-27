@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  body{
+    background-color: white;
+}
+p.sansserif {
+    font-family: Arial, Helvetica, sans-serif;  
+}
+section {
+    width:200px;
+    float:left;
+    padding:5px;	 	 
+}
+button {
+  background-color: white;
+    border: none;
+    color: black;
+    padding: 5px 13px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Metropolis';
+    
+}
+.button1 {background-color: #3598DB36;border: 1px solid#3598DB; border-radius: 2px;}/*See More*/
+.button2 {background-color: #FDE8E2;float: right; border-radius: 5px;} /*Reviewed*/
+.button3 {background-color: #E5E2FD;float: right; border-radius: 5px;} /*Contacting*/
+.button4 {background-color: #E2FDE2;float: right; border-radius: 5px;} /*Hired*/
+.button5 {background-color: #FBE2FD;float: right; border-radius: 5px;} /*Awaiting*/
+.button6 {background-color: white;float: center; border-radius: 5px;} /*Search*/
+
+
+.card {
+    box-shadow: 0 4px 8px 0 #00000029;
+    transition: 0.3s;
+    background-color: white;
+    width: 250px;
+    height: 350px;
+    border-radius: 5px;
+    padding: 5%;
+    font-family: 'Metropolis'
+  }
+  .container {
+    color: white;
+    padding: 2px 16px;
+  }
+  .column {
+    float: left;
+    padding: 0 10px;
+    margin: 10px;
+  }
+  .row {margin: 0 -5px;}
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+a{
+  color: #333333;
+  font-family: 'Cera Pro';
+  font-size: 15px;
+  text-align: center;
+}
+@font-face {
+  font-family: 'Metropolis';
+  src: url("metropolis.regular.otf") format("otf");
+  }
+  @font-face {
+    font-family: 'Cera Pro';
+    src: url("FontsFree-Net-cor3.ttf") format("ttf");
+    }
+.abc
+{
+  font-family: 'Metropolis';
+}
+.aa .ab
+{
+  font-family: 'Cera Pro';
+}
